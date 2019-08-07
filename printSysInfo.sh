@@ -16,6 +16,7 @@ cpu_sum=$(($cpu_us+$cpu_sy))
 #update sys_inf_test set sys_in ='$sys_in',sys_out='$sys_out',mem_total='$mem_total',mem_free='$mem_free',cpu_sum='$cpu_sum' where id='1';
 #select * from sys_inf_test;
 #EOF
+#helloworld
 echo "-----------------------------------"
 echo "系统input块数" $sys_in
 echo "系统output块数" $sys_out
